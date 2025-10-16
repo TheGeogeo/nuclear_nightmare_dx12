@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Sources Files\hooks">
+      <UniqueIdentifier>{4b0a0d7e-533d-4d79-9e7b-cf2f71843924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources Files\hooks\directx">
+      <UniqueIdentifier>{5278603b-4683-4e87-a590-9101e6bfe6f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources Files\kiero">
+      <UniqueIdentifier>{4d4ea091-2720-4dc3-a02c-67bcbbb1c0ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources Files\menu">
+      <UniqueIdentifier>{2aa1566c-0d10-480e-9cf3-8c6cd93235e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources Files\imgui">
+      <UniqueIdentifier>{6069acd0-87a8-4f99-a260-5197fd572e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resources Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Sources Files\TheGeogeo">
+      <UniqueIdentifier>{7ee63fb6-e2fc-4074-b8df-ab4083060272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources Files\TheGeogeo\header">
+      <UniqueIdentifier>{e5ff25be-7309-4474-ae36-945d266ed2d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources Files\TheGeogeo\cpp">
+      <UniqueIdentifier>{8975babb-3a9d-4322-8e08-ae1166833e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{f1a41c42-4a44-4487-967d-68a70a636543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\sdk">
+      <UniqueIdentifier>{61c706ed-d4f9-4f09-8f9a-4c6d4826fb6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks.cpp">
+      <Filter>Sources Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero.cpp">
+      <Filter>Sources Files\kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Sources Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>Sources Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Sources Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Sources Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>Sources Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx12.cpp">
+      <Filter>Sources Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Sources Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="inputhooks.cpp">
+      <Filter>Sources Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Sources Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d12hook.cpp">
+      <Filter>Sources Files\hooks\directx</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Sources Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="TheGeogeo\esp.cpp">
+      <Filter>Sources Files\TheGeogeo\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TheGeogeo\hotkey.cpp">
+      <Filter>Sources Files\TheGeogeo\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TheGeogeo\utilfunction.cpp">
+      <Filter>Sources Files\TheGeogeo\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="maincheat.cpp">
+      <Filter>Sources Files\TheGeogeo\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Basic.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Engine_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\CoreUObject_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_FirstPersonCharacter_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_FirstPersonGameMode_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_FirstPersonGameState_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\bp_laser_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\NuclearNightmare_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_GeneratorGameplayNew_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ExameModularClassified_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_ClassifiedMaterial_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_NNFirstPersonPlayerController_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_NNFirstPersonPlayerState_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\item_9mmammo_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\item_38specialammo_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Item_Barricade_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Item_BeefJerky_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\item_buckshot_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Item_Flamethrower_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Item_Flare_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Item_FlareGun_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Item_Flashlight_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Item_GasCanster_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Item_Glowstick_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Item_Grenade_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Item_MotionTracker_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Item_mp5_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Item_Painkillers_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Item_Pickaxe_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Item_Radio_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Item_Revolver_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Item_Shotgun_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Item_Sniper_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\item_sniperammo_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Item_Syringe_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Husky_AI_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_Door_Base_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\SodaMachineBP_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_Radio_functions.cpp">
+      <Filter>sdk\sdk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.h">
+      <Filter>Sources Files\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero.h">
+      <Filter>Sources Files\kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Sources Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Sources Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Sources Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Sources Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Sources Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Sources Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Sources Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>Sources Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx12.h">
+      <Filter>Sources Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Sources Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="inputhooks.h">
+      <Filter>Sources Files\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Sources Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d12hook.h">
+      <Filter>Sources Files\hooks\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TheGeogeo\cfg.h">
+      <Filter>Sources Files\TheGeogeo\header</Filter>
+    </ClInclude>
+    <ClInclude Include="TheGeogeo\esp.h">
+      <Filter>Sources Files\TheGeogeo\header</Filter>
+    </ClInclude>
+    <ClInclude Include="TheGeogeo\hotkey.h">
+      <Filter>Sources Files\TheGeogeo\header</Filter>
+    </ClInclude>
+    <ClInclude Include="TheGeogeo\mainoffset.h">
+      <Filter>Sources Files\TheGeogeo\header</Filter>
+    </ClInclude>
+    <ClInclude Include="TheGeogeo\singleton.h">
+      <Filter>Sources Files\TheGeogeo\header</Filter>
+    </ClInclude>
+    <ClInclude Include="TheGeogeo\utilfunction.h">
+      <Filter>Sources Files\TheGeogeo\header</Filter>
+    </ClInclude>
+    <ClInclude Include="maincheat.h">
+      <Filter>Sources Files\TheGeogeo\header</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\PropertyFixup.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\UnrealContainers.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\UtfN.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Basic.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Engine_structs.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Engine_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Engine_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CoreUObject_structs.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CoreUObject_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CoreUObject_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_FirstPersonGameState_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_FirstPersonCharacter_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_FirstPersonCharacter_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_FirstPersonGameMode_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_FirstPersonGameMode_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_FirstPersonGameState_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\bp_laser_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\bp_laser_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\NuclearNightmare_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\NuclearNightmare_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_GeneratorGameplayNew_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_GeneratorGameplayNew_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ExameModularClassified_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ExameModularClassified_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_ClassifiedMaterial_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_ClassifiedMaterial_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_NNFirstPersonPlayerController_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_NNFirstPersonPlayerController_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_NNFirstPersonPlayerState_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_NNFirstPersonPlayerState_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\item_38specialammo_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\item_9mmammo_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\item_9mmammo_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\item_38specialammo_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Syringe_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Barricade_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Barricade_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_BeefJerky_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_BeefJerky_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\item_buckshot_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\item_buckshot_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Flamethrower_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Flamethrower_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Flare_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Flare_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_FlareGun_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_FlareGun_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Flashlight_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Flashlight_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_GasCanster_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_GasCanster_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Glowstick_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Glowstick_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Grenade_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Grenade_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_MotionTracker_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_MotionTracker_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_mp5_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_mp5_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Painkillers_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Painkillers_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Pickaxe_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Pickaxe_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Radio_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Radio_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Revolver_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Revolver_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Shotgun_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Shotgun_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Sniper_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Sniper_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\item_sniperammo_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\item_sniperammo_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_Syringe_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Husky_AI_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Husky_AI_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_Door_Base_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_Door_Base_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SodaMachineBP_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SodaMachineBP_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_Radio_classes.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_Radio_parameters.hpp">
+      <Filter>sdk\sdk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDK\Assertions.inl">
+      <Filter>sdk</Filter>
+    </None>
+    <None Include="SDK\NameCollisions.inl">
+      <Filter>sdk</Filter>
+    </None>
+  </ItemGroup>
+</Project>
